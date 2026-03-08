@@ -15,7 +15,7 @@ This project analyzes telecom customer churn using Excel and Power BI to identif
 
 ## Dashboard Preview
 
-![Customer Churn Dashboard](screenshots/churn_dashboard.png)
+![Customer Churn Dashboard](screenshot/churn_dashboard.png)
 
 ---
 
