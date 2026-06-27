@@ -29,10 +29,19 @@ Customer Account → Service Usage → Support Experience → Contract Renewal �
 | Customer Lifecycle | Tenure-Based Churn | Account Weeks, Tenure Group |
 | Usage & Value | Behavioral Risk Signals | Monthly Charge, Data Usage, Overage Fee |
 
+## Excel Preparation
+
+| Excel Step | Purpose |
+|---|---|
+| Raw Dataset | Started with telecom customer fields including churn, account weeks, contract renewal, data plan, data usage, support calls, monthly charge, overage fee, and roaming minutes. |
+| Prepared Dataset | Added analysis-ready customer segments for support call risk, charge risk, tenure group, and call group. |
+| Churn Segmentation | Grouped customers by renewal status, support call frequency, and tenure to compare churn behavior across business-relevant segments. |
+| Dashboard Input | Used the prepared dataset as the structured input for Power BI visuals and churn KPI calculations. |
+
 ## Project Workflow
 
 - Prepared telecom customer data in Excel.
-- Created customer segments for support call frequency and tenure.
+- Created customer segments for support call frequency, tenure, charge risk, and call risk.
 - Built churn rate calculations and customer risk indicators.
 - Designed a Power BI dashboard to compare churn behavior across contract status, tenure, and support call groups.
 - Used the analysis to identify customer segments that may need targeted retention outreach.
