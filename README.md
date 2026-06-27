@@ -2,7 +2,7 @@
 
 This project analyzes telecom customer churn using Excel and Power BI to identify customer behaviors associated with retention risk.
 
-The analysis connects churn outcomes to business drivers such as contract renewal, support call frequency, tenure, and service usage. Instead of only reporting churn rate, this project frames churn as a customer retention problem where behavioral signals can be used to identify high-risk segments and guide retention strategy.
+The analysis connects churn outcomes to business drivers such as contract renewal, support call frequency, and tenure. Instead of only reporting churn rate, this project frames churn as a customer retention problem where behavioral signals can be used to identify high-risk segments and guide retention strategy.
 
 ## Dashboard Preview
 
@@ -18,7 +18,7 @@ The analysis connects churn outcomes to business drivers such as contract renewa
 
 ## Business Process
 
-Customer Account → Service Usage → Support Experience → Contract Renewal → Retention / Churn
+Customer Account → Support Experience → Contract Renewal → Retention / Churn
 
 ## KPI Framework
 
@@ -27,21 +27,21 @@ Customer Account → Service Usage → Support Experience → Contract Renewal �
 | Customer Retention | Churn Rate | Total Customers, Total Churned, Contract Renewal Status |
 | Support Experience | Churn Risk by Support Calls | Customer Service Calls, Support Call Group |
 | Customer Lifecycle | Tenure-Based Churn | Account Weeks, Tenure Group |
-| Usage & Value | Behavioral Risk Signals | Monthly Charge, Data Usage, Overage Fee |
+| Retention Targeting | High-Risk Customer Segments | Renewal Status, Support Call Group, Tenure Group |
 
 ## Excel Preparation
 
 | Excel Step | Purpose |
 |---|---|
 | Raw Dataset | Started with telecom customer fields including churn, account weeks, contract renewal, data plan, data usage, support calls, monthly charge, overage fee, and roaming minutes. |
-| Prepared Dataset | Added analysis-ready customer segments for support call risk, charge risk, tenure group, and call group. |
+| Prepared Dataset | Added analysis-ready customer segments for support call frequency, tenure group, and churn risk. |
 | Churn Segmentation | Grouped customers by renewal status, support call frequency, and tenure to compare churn behavior across business-relevant segments. |
 | Dashboard Input | Used the prepared dataset as the structured input for Power BI visuals and churn KPI calculations. |
 
 ## Project Workflow
 
 - Prepared telecom customer data in Excel.
-- Created customer segments for support call frequency, tenure, charge risk, and call risk.
+- Created customer segments for support call frequency, tenure, and churn risk.
 - Built churn rate calculations and customer risk indicators.
 - Designed a Power BI dashboard to compare churn behavior across contract status, tenure, and support call groups.
 - Used the analysis to identify customer segments that may need targeted retention outreach.
